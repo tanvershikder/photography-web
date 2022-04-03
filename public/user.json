@@ -1,0 +1,39 @@
+[
+    {
+        "name":"jhon ibramim",
+        "review":"5 star",
+        "img":"./user1.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    },
+    {
+        "name":"KaiSamer",
+        "review":"4.5 star",
+        "img":"./user2.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    },
+    {
+        "name":"ms huja",
+        "review":"4 star",
+        "img":"./user5.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    },
+    {
+        "name":"jiko",
+        "review":"5 star",
+        "img":"./user3.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    },
+    {
+        "name":"leo markuis",
+        "review":"4.5 star",
+        "img":"./user4.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    },
+    {
+        "name":"willium",
+        "review":"4 star",
+        "img":"./user5.jpg",
+        "details":"its organization prhotgrapher is too skilled and well photographer"
+    }
+    
+]

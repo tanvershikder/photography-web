@@ -8,10 +8,16 @@ import Blogs from './Components/Bologs/Blogs'
 import Notfound from './Components/NotFound/Notfound'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Review from './Components/Review/Review';
+import { createContext, useState } from 'react';
+
+
+export const UserContext = createContext();
 
 function App() {
+  const [users,setUsers] = useState([]);
   return (
-    <div className="App">
+
+    <UserContext.Provider value={[users,setUsers]}>
       <Navbar className=""></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -22,7 +28,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
-    </div>
+    </UserContext.Provider>
   );
 }
 

@@ -16,7 +16,7 @@ const Home = () => {
                     <p><strong>TsPhotgraphy</strong> is best photography you can best service from us.
                         Our photographers are so skilled enough. they make you photo attrictrive and nice.
                     </p>
-                    <button className='border w-25 h-25 rounded bg-primary text-white'>Show more</button>
+                    <button className='border rounded bg-primary text-white'>Show more</button>
                 </div>
             </div>
             <CustomerReview></CustomerReview>
