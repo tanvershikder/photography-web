@@ -11,7 +11,6 @@ const Navbar = () => {
             <CustomLink to='/dashbord'>DashBord</CustomLink>
             <CustomLink to='/blogs'>Blogs</CustomLink>
             <CustomLink to='/about'>About</CustomLink>
-
         </div>
     );
 };
