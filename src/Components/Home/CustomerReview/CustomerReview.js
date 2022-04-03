@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import CustomerReviewCart from '../../CustomerReviewCart/CustomerReviewCart'
 import { UserContext } from '../../../App';
+import { Link } from 'react-router-dom';
 
 const CustomerReview = () => {
     // const [users,setUsers] = useState([]);
@@ -21,7 +22,7 @@ const CustomerReview = () => {
                 carduser.map(user=><CustomerReviewCart key={user.id} user={user}></CustomerReviewCart>)
             }
             </div>
-            <button className='bg-primary w-25 h-50 p-2 text-white ms-5 rounded'>See All Review</button>
+            <Link to='/review' className='bg-primary m-3 p-2 text-white ms-5 rounded text-decoration-none'>See All Review</Link>
         </div>
     );
 };
