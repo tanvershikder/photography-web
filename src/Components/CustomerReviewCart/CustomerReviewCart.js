@@ -1,8 +1,7 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 
 const Review = ({ user }) => {
-    console.log(user);
     return (
         <div className='w-25 shadow'>
             <Card>
