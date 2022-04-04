@@ -3,42 +3,42 @@
         "name":"jhon ibramim",
         "review":"5 star",
         "img":"./user1.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":"mackBook is easy to move and its service are too fast. as a apple product its service too smoot",
         "id":1
     },
     {
         "name":"KaiSamer",
         "review":"4.5 star",
         "img":"./user2.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":" Battery life beyond belief. Mac is designed to let you work, play, and create in ways you never imagined.",
         "id":2
     },
     {
         "name":"ms huja",
         "review":"4 star",
         "img":"./user6.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":" It comes loaded with apps that are ready to go right out of the box",
         "id":3
     },
     {
         "name":"jiko",
         "review":"5 star",
         "img":"./user3.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":"mackBook is easy to move and its service are too fast. as a apple product its service too smoot",
         "id":4
     },
     {
         "name":"leo markuis",
         "review":"4.5 star",
         "img":"./user4.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":"mackBook is easy to move and its service are too fast. as a apple product its service too smoot",
         "id":5
     },
     {
         "name":"willium",
         "review":"4 star",
         "img":"./user5.jpg",
-        "details":"its organization prhotgrapher is too skilled and well photographer",
+        "details":"mackBook is easy to move and its service are too fast. as a apple product its service too smoot",
         "id":6
     }
     

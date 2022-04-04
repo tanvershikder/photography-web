@@ -1,11 +1,9 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 import CustomLink from '../CustomLinks/CustomLink';
 import "./Navbar.css";
 
 
 const Navbar = () => {
-    const {pathname} = useLocation();
     return (
         <div className='d-flex justify-content-center'>
             <CustomLink to='/home'></CustomLink>

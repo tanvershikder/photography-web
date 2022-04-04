@@ -7,11 +7,11 @@ const Review = ({ user }) => {
             <Card>
                 <Card.Img className='h-100 w-100 rounded mx-auto d-block' src={user.img} />
                 <Card.Body>
-                    <Card.Title>{user.name}</Card.Title>
+                    <Card.Title className='text-primary'>{user.name}</Card.Title>
                     <Card.Text>
-                       {user.details}
+                       <strong className='text-info'>Says</strong> :{user.details}
                     </Card.Text>
-                    <p>Review : <span className='text-warning'>{user.review}</span></p>
+                    <p><strong className='text-danger'>Review</strong> : <span className='text-warning'>{user.review}</span></p>
                 </Card.Body>
             </Card>
         </div>

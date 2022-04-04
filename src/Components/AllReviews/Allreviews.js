@@ -9,11 +9,11 @@ const Allreviews = ({users}) => {
             <Card>
                 <Card.Img className='h-100 w-100 rounded ' src={users.img} />
                 <Card.Body>
-                    <Card.Title>{users.name}</Card.Title>
+                    <Card.Title className='text-primary fs-4'>{users.name}</Card.Title>
                     <Card.Text>
-                       {users.details}
+                    <strong className='text-info'>Says</strong> :{users.details}
                     </Card.Text>
-                    <p>Review : <span className='text-warning'>{users.review}</span></p>
+                    <p><strong className='text-danger'>Review</strong> : <span className='text-warning'>{users.review}</span></p>
                 </Card.Body>
             </Card>
         </Col>
