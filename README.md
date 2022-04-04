@@ -1,6 +1,6 @@
 # tsMackBook site
 
-this project live site link [live site](https://github.com/facebook/create-react-app).
+this project [live site Link](https://tsmackbookreview.netlify.app/).
 
 ## Road Map
 * this web site made with react .
