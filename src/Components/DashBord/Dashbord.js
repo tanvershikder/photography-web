@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { CartesianGrid, Line, LineChart, XAxis, YAxis, Tooltip} from 'recharts';
+import { CartesianGrid, Line, LineChart, XAxis, YAxis, Tooltip, Legend} from 'recharts';
 import Pichart from '../PiChart/Pichart';
 
 const Dashbord = () => {
@@ -22,6 +22,7 @@ const Dashbord = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend></Legend>
                 </LineChart>
             </div>
             <div>

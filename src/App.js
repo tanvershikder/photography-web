@@ -14,20 +14,22 @@ import { createContext, useState } from 'react';
 export const UserContext = createContext();
 
 function App() {
-  const [users,setUsers] = useState([]);
+  const [users, setUsers] = useState([]);
   return (
 
-    <UserContext.Provider value={[users,setUsers]}>
-      <Navbar className=""></Navbar>
-      <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
-        <Route path='/dashbord' element={<Dashbord></Dashbord>}></Route>
-        <Route path='/review' element={<Review></Review>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='*' element={<Notfound></Notfound>}></Route>
-      </Routes>
+    <UserContext.Provider value={[users, setUsers]}>
+      <div>
+        <Navbar className=""></Navbar>
+        <Routes>
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/home' element={<Home></Home>}></Route>
+          <Route path='/about' element={<About></About>}></Route>
+          <Route path='/dashbord' element={<Dashbord></Dashbord>}></Route>
+          <Route path='/review' element={<Review></Review>}></Route>
+          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+          <Route path='*' element={<Notfound></Notfound>}></Route>
+        </Routes>
+      </div>
     </UserContext.Provider>
   );
 }
