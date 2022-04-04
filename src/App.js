@@ -4,7 +4,7 @@ import About from './Components/About/About';
 import Dashbord from './Components/DashBord/Dashbord';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
-import Blogs from './Components/Bologs/Blogs'
+import Blogs from './Components/Blogs/Blogs'
 import Notfound from './Components/NotFound/Notfound'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Review from './Components/Review/Review';
