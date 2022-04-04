@@ -19,7 +19,7 @@ function App() {
 
     <UserContext.Provider value={[users, setUsers]}>
       <div>
-        <Navbar className=""></Navbar>
+        <Navbar className="navbar mb-3"></Navbar>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>

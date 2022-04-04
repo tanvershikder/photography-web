@@ -1,9 +1,10 @@
 import React from 'react';
 import { Card} from 'react-bootstrap';
+import './CustomerReviewCart.css'
 
 const Review = ({ user }) => {
     return (
-        <div className='w-25 shadow'>
+        <div className='w-25 shadow review'>
             <Card>
                 <Card.Img className='h-100 w-100 rounded mx-auto d-block' src={user.img} />
                 <Card.Body>

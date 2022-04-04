@@ -6,7 +6,7 @@ import mackbook from './images/macbook.jpg'
 const Home = () => {
     return (
         <div >
-            <div className='home-style m-5'>
+            <div className='home-style m-5 '>
                 <div>
                     <img className='h-100 w-75 rounded' src={mackbook} alt="" />
                 </div>

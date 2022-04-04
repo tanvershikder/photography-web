@@ -18,7 +18,7 @@ const CustomerReview = () => {
     return (
         <div>
             <h1 className='text-success text-center'>Customer Review (3)</h1>
-            <div className="d-flex justify-content-between m-5 ">
+            <div className="d-md-flex justify-content-between m-5 review">
                 {
                     carduser.map(user => <CustomerReviewCart key={user.id} user={user}></CustomerReviewCart>)
                 }
